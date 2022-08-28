@@ -1,7 +1,7 @@
 import "./Contact.css";
 
 const Contact = () => {
-  const URL = "http://localhost:3000";
+  const URL = "https://danielsoesito.com";
 
   return (
     <header id="contact">
