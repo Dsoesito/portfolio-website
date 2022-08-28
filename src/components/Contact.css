@@ -1,0 +1,183 @@
+.contact__container {
+  background-color: rgb(14, 14, 13);
+  color: white;
+  font-family: "opensans-bold", sans-serif;
+}
+
+.contact__header {
+  font-size: 30px;
+  padding-top: 3rem;
+  font-weight: 100;
+  margin-right: 200px;
+  text-align: center;
+  font-style: italic;
+  font-size: clamp(40px, 4vw, 60px);
+  color: rgb(156, 156, 153);
+  letter-spacing: 7px;
+}
+
+.contact__main {
+  font-size: 20px;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  letter-spacing: normal;
+}
+
+.contact__form {
+  text-align: right;
+  width: 800px;
+  font-size: 20px;
+}
+
+.contact__category {
+  display: flex;
+  justify-content: right;
+  width: 805px;
+  padding-top: 30px;
+}
+
+.contact__title {
+  padding-right: 100px;
+}
+
+.contact__asterix {
+  color: rgb(0, 251, 255);
+}
+
+.contact__message {
+  display: flex;
+  justify-content: right;
+  width: 805px;
+  padding-top: 30px;
+  height: 500px;
+}
+
+.contact__address {
+  font-size: 20px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  margin-top: auto;
+  line-height: 15px;
+  padding-bottom: 120px;
+  padding-left: 5vw;
+  color: rgb(78, 78, 77);
+}
+
+.contact__direct {
+  font-size: 30px;
+  font-weight: 300;
+  padding-bottom: 15px;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+
+.contact__link {
+  color: rgb(78, 78, 77);
+  font-weight: 100;
+}
+
+.contact__link:hover {
+  color: rgb(0, 251, 255);
+}
+
+input,
+textarea {
+  width: 600px;
+  font-size: 20px;
+  font-family: "opensans-bold", sans-serif;
+  border: none;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+textarea {
+  background-color: rgb(156, 156, 153);
+}
+
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="email"]:focus,
+textarea:focus {
+  background-color: rgb(157, 231, 232);
+}
+
+.contact__button {
+  color: white;
+  margin: 30px 0 30px 0;
+  height: 50px;
+  width: 160px;
+  background-color: rgb(37, 37, 36);
+  font-size: 20px;
+  border: none;
+}
+
+.contact__button:hover {
+  color: rgb(0, 251, 255);
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1100px) {
+  .contact__container {
+    background-color: rgb(14, 14, 13);
+    color: white;
+    font-family: "opensans-bold", sans-serif;
+  }
+
+  .contact__main {
+    display: block;
+  }
+
+  .contact__header {
+    margin-right: 0;
+    letter-spacing: 2px;
+  }
+
+  .contact__form {
+    text-align: center;
+    padding-left: 30px;
+    width: 80vw;
+  }
+
+  .contact__category {
+    display: block;
+    justify-content: left;
+    width: 80vw;
+    padding-top: 30px;
+  }
+
+  .contact__title {
+    text-align: left;
+  }
+
+  .contact__message {
+    display: block;
+    justify-content: left;
+    width: 80vw;
+    padding-top: 30px;
+    height: 400px;
+  }
+
+  .contact__address {
+    padding-top: 30px;
+    padding-left: 30px;
+  }
+
+  input {
+    width: 80vw;
+    height: 60px;
+  }
+
+  textarea {
+    width: 80vw;
+    font-size: 20px;
+    height: 300px;
+  }
+
+  input[type="text"],
+  textarea {
+    background-color: rgb(156, 156, 153);
+  }
+}

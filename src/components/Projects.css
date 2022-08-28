@@ -1,0 +1,137 @@
+.projects__container {
+  background-color: rgb(14, 14, 13);
+  color: white;
+  font-family: "opensans-bold", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  text-align: center;
+  padding: 3rem 0;
+  font-size: clamp(40px, 4vw, 60px);
+  letter-spacing: 10px;
+}
+
+.projects {
+  text-align: left;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  letter-spacing: normal;
+  display: flex;
+  justify-content: space-around;
+}
+
+.projects__line {
+  border: none;
+  border-top: 3px solid rgb(88, 91, 91);
+  width: 80%;
+}
+.projects__project {
+  display: flex;
+}
+
+.projects__link {
+  display: flex;
+  text-decoration: none;
+  color: white;
+  opacity: 0.6;
+  transition: all 0.2s ease-in-out;
+  width: fit-content;
+  align-items: center;
+}
+
+.projects__link:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+.projects__picture {
+  border: 0.25vh solid white;
+  border-radius: 6px;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  display: block;
+  height: 15vw;
+  min-height: 300px;
+  max-height: 450px;
+  width: auto;
+}
+
+.projects__text {
+  padding: 0 3rem;
+  width: auto;
+  max-width: 700px;
+}
+
+.projects__title {
+  font-size: clamp(25px, 2vw, 40px);
+  font-style: normal;
+  font-weight: 800;
+}
+
+.projects__tools {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: 100;
+  color: rgb(88, 91, 91);
+}
+
+.projects__description {
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.projects__github {
+  font-size: 20px;
+  color: white;
+  font-style: normal;
+  font-weight: 100;
+}
+
+.projects__lineVert {
+  margin: 50px;
+}
+
+.projects__lineVertHidden {
+  border-style: hidden;
+}
+
+.projects__github:hover {
+  color: rgb(0, 251, 255);
+}
+
+@media only screen and (max-width: 1600px) {
+  .projects__project {
+    display: block;
+    text-decoration: none;
+    color: white;
+    max-width: 700px;
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .projects {
+    display: block;
+  }
+
+  .projects__project {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 800px;
+  }
+
+  .projects__picture {
+    margin-left: 50px;
+  }
+
+  .projects__line {
+    visibility: hidden;
+  }
+
+  .projects__lineVertHidden {
+    border-style: solid;
+    width: 80%;
+    /* padding: 0 3rem; */
+  }
+}

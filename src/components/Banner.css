@@ -1,0 +1,95 @@
+.banner__container {
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 100%;
+}
+
+.banner__header {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__img {
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  /* opacity: 0.5; */
+}
+
+.banner__title {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 5vw;
+  font-weight: 800;
+  position: absolute;
+  top: 20vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__intro {
+  font-family: "opensans-bold", sans-serif;
+  font-size: 2vw;
+  font-weight: lighter;
+  position: absolute;
+  top: 27vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(156, 161, 161);
+}
+
+.banner__socials {
+  position: absolute;
+  top: 32vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__logo {
+  height: 2vw;
+  width: 2vw;
+  padding: 2vw;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner__logo:hover {
+  transform: scale(1.2);
+}
+
+.banner__down {
+  position: absolute;
+  top: 56vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner__arrow {
+  height: 3vw;
+  width: 3vw;
+  transition: all 0.2s ease-in-out;
+}
+
+.banner__arrow:hover {
+  transform: scale(1.5);
+}
+
+.nav__button {
+  text-decoration: none;
+  color: white;
+  letter-spacing: 2.5px;
+  font-weight: bold;
+  padding: 10px 1vw;
+  font-family: "opensans-bold", sans-serif;
+  font-size: clamp(10px, 1vw, 10rem);
+}
+
+.nav__button:hover {
+  color: rgb(0, 251, 255);
+}
+
+.table {
+  display: table;
+  margin: 0 auto;
+}

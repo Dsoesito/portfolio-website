@@ -1,0 +1,13 @@
+.app {
+  background-color: rgb(48, 48, 48);
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
