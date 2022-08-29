@@ -123,6 +123,8 @@
 
   .projects__picture {
     margin-left: 50px;
+    min-height: 225px;
+    max-height: 337.5px;
   }
 
   .projects__line {

@@ -1,9 +1,13 @@
 import profile from "../images/Daniel.jpg";
 import downloadIcon from "../images/download-icon.png";
 import resume from "../images/Soesito_Daniel_Resume.pdf";
+import eyeIcon from "../images/eye.png";
 import "./About.css";
+import { useNavigate } from "react-router-dom";
 
 const About = () => {
+  const navigate = useNavigate();
+
   return (
     <header id="about">
       <div className="about__container">
@@ -72,6 +76,18 @@ const About = () => {
               </p>
             </div>
             <div className="about__download">
+              <button
+                onClick={() => navigate("resume")}
+                className="about__buttonView"
+              >
+                <img
+                  className="about__eye"
+                  src={eyeIcon}
+                  alt="download resume"
+                />
+                View Resume
+              </button>
+              <hr className="about__hr" />
               <a href={resume} download className="about__button">
                 <img
                   className="about__icon"
