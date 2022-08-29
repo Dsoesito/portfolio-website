@@ -78,3 +78,38 @@
   color: rgb(0, 251, 255);
   cursor: pointer;
 }
+
+@media only screen and (max-width: 800px) {
+  .thanks__content {
+    padding-bottom: 100px;
+  }
+
+  .thanks__text {
+    font-size: clamp(20px, 8vw, 90px);
+  }
+
+  .thanks_check {
+    max-height: 100px;
+    max-width: 100px;
+    min-height: 50px;
+    min-width: 50px;
+  }
+
+  .thanks__message {
+    font-size: clamp(15px, 7vw, 50px);
+  }
+
+  .thanks__response {
+    font-size: clamp(10px, 4vw, 40px);
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .thanks__redirect {
+    font-size: clamp(10px, 3vw, 40px);
+  }
+
+  .thanks__button {
+    font-size: clamp(10px, 3vw, 40px);
+  }
+}
