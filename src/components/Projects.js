@@ -145,7 +145,7 @@ const Projects = () => {
                 of exercises (based on body part/movement pattern) and add them
                 to a total workout plan. Users can add individual exercises and
                 their desired number of sets and delete exercises/sets as they
-                go through their work out! go through their workout!
+                go through their work out!
               </p>
               <a
                 className="projects__github"

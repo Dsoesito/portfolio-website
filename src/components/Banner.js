@@ -40,7 +40,7 @@ const Banner = () => {
                 .typeString("Welcome!")
                 .pauseFor(1500)
                 .deleteAll()
-                .typeString("I am Daniel Soesito.")
+                .typeString("I am Daniel Soesito")
                 .start();
             }}
           />
