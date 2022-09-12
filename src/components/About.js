@@ -17,17 +17,17 @@ const About = () => {
         <div className="about__text">
           <p className="about__heading">SO, WHO IS DANIEL?</p>
           <p className="about__blurb">
-            Well…that’s me! My name is Daniel Soesito and I am an aspiring full
-            stack developer, that is completely self-taught. I graduated from
-            the University of Guelph in Ontario Canada with a Bachelor of
-            Landscape Architecture in April of 2021 and have been working full
-            time as a Landscape Designer ever since. I taught myself how to
-            code, at first as a fun pass-time, but before I knew it, I began to
-            fall in love with programming!
+            My name is Daniel Soesito and I am an aspiring full stack developer,
+            that is completely self-taught. I graduated from the University of
+            Guelph in Ontario Canada with a Bachelor of Landscape Architecture
+            in April of 2021 and have been working full time as a Landscape
+            Designer ever since. I taught myself how to code, at first as a fun
+            pass-time, but before I knew it, I began to fall in love with
+            programming!
           </p>
           <br />
           <p className="about__blurb">
-            I started teaching myself python and though I enjoyed it, I soon
+            I started teaching myself Python, and though I enjoyed it, I soon
             came to crave some “design” aspects. I decided to look in to web
             development, both front and back end. I realized what I truly loved
             was not the “landscape” portion of my field, but rather, the
@@ -38,9 +38,9 @@ const About = () => {
           <br />
           <p className="about__blurb">
             I have come a long way from the beginning and have made a lot of
-            projects since then. This website (which I coded) is a compilation
-            of some of my best work, so please, stay a while, check it out, and
-            feel free to get in contact with me at any time!
+            projects since then. This website is a compilation of some of my
+            best work, so please, stay a while, check it out, and feel free to
+            get in contact with me at any time!
           </p>
           <div className="about__info">
             <div className="about__details">
