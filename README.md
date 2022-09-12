@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Greetings!! Welcome to my personal Portfolio Website that I built to showcase my projects and for you to get to know me better as a programmer!! 😄
 
-## Available Scripts
+Website Link: https://danielsoesito.com
+** Feel free to view this website on your phone! It is mobile friendly**
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- Landing Page with GitHub + LinkedIn links and navigation bar
+- About section with introductory paragraph, contact details, and resume
+- Projects section with 5 major projects and links/descriptions for each
+- Resume section with Education and Work Experience highlights
+- Contact form to send me an email and to let me know about yourself!
+- Footer for extra navigation capabilities
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Architecture
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This website was built with Reat.JS, HTML, CSS, React Redux, and hosted on Hostinger and Vercel. Each component of the app is rendered vertically on top of eachother on the main page, with two extra pages (managed by React Router) for a short thank you messages and viewing my resume.
 
-### `npm test`
+Resume is viewable without download, but the PDF is also available to download if the user chooses to keep a copy.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contact form at the end is managed by formsubmit.co, and all messages are sent to my personal email, where I can read the details of the message and respond ASAP.
 
-### `npm run build`
+## Screenshots
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Landing Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screen Shot 2022-08-29 at 10 03 39 PM](https://user-images.githubusercontent.com/99083937/187332378-478bb5a1-1936-4744-8f2f-7ca47dcdf0b7.png)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### About Section
 
-### `npm run eject`
+![Screen Shot 2022-08-29 at 10 04 13 PM](https://user-images.githubusercontent.com/99083937/187334156-f92d8e11-1996-4b6f-aaf8-343f320f6ce2.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Projects Section
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![Screen Shot 2022-08-29 at 10 04 35 PM](https://user-images.githubusercontent.com/99083937/187334206-f9e01868-3982-479a-82c8-01ca6f0f666c.png)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Resume Section
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![Screen Shot 2022-08-29 at 10 04 55 PM](https://user-images.githubusercontent.com/99083937/187334238-f853d871-2ee7-4c57-ab98-c985e7cc990c.png)
 
-## Learn More
+### Contact From + Footer
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+![Screen Shot 2022-08-29 at 10 05 16 PM](https://user-images.githubusercontent.com/99083937/187334281-bb4f4001-5242-4c95-9fda-e5bc16b4c07f.png)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Thank you
 
-### Code Splitting
+If you would like to view my website, feel free to view the link at the top of this post and get in contact with me!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
