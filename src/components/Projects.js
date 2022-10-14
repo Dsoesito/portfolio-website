@@ -51,44 +51,6 @@ const Projects = () => {
           <span className="projects__project">
             <a
               className="projects__link"
-              href="http://djangoblog-env.eba-awppdmnx.ca-central-1.elasticbeanstalk.com"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img
-                className="projects__picture"
-                src={blogPic}
-                alt="personal blog"
-              />
-            </a>
-            <div className="projects__text">
-              <p className="projects__title">Personal Blog</p>
-              <p className="projects__tools">
-                Django, Python, HTML, CSS, AWS (Elastic Beanstalk, EC2)
-              </p>
-              <p className="projects__description">
-                Personal blog I made at the beginning of my coding journey to
-                log my learning on a weekly basis! Feel free to check it out and
-                post some comments on a blog posts as I am still updating it
-                every week!
-              </p>
-              <a
-                className="projects__github"
-                href="https://github.com/Dsoesito/Personal-Blog"
-                target="_blank"
-                rel="noreferrer"
-              >
-                GitHub
-              </a>
-            </div>
-          </span>
-        </div>
-        <hr className="projects__lineVertHidden" />
-        <hr className="projects__line" />
-        <div className="projects">
-          <span className="projects__project">
-            <a
-              className="projects__link"
               href="https://netflixclone-ad599.web.app"
               target="_blank"
               rel="noreferrer"
@@ -114,6 +76,44 @@ const Projects = () => {
               <a
                 className="projects__github"
                 href="https://github.com/Dsoesito/netflixclone"
+                target="_blank"
+                rel="noreferrer"
+              >
+                GitHub
+              </a>
+            </div>
+          </span>
+        </div>
+        <hr className="projects__lineVertHidden" />
+        <hr className="projects__line" />
+        <div className="projects">
+          <span className="projects__project">
+            <a
+              className="projects__link"
+              href="http://djangoblog-env.eba-awppdmnx.ca-central-1.elasticbeanstalk.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img
+                className="projects__picture"
+                src={blogPic}
+                alt="personal blog"
+              />
+            </a>
+            <div className="projects__text">
+              <p className="projects__title">Personal Blog</p>
+              <p className="projects__tools">
+                Django, Python, HTML, CSS, AWS (Elastic Beanstalk, EC2)
+              </p>
+              <p className="projects__description">
+                Personal blog I made at the beginning of my coding journey to
+                log my learning on a weekly basis! Feel free to check it out and
+                post some comments on a blog posts as I am still updating it
+                every week!
+              </p>
+              <a
+                className="projects__github"
+                href="https://github.com/Dsoesito/Personal-Blog"
                 target="_blank"
                 rel="noreferrer"
               >
