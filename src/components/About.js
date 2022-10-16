@@ -80,11 +80,7 @@ const About = () => {
                 onClick={() => navigate("resume")}
                 className="about__buttonView"
               >
-                <img
-                  className="about__eye"
-                  src={eyeIcon}
-                  alt="download resume"
-                />
+                <img className="about__eye" src={eyeIcon} alt="view resume" />
                 View Resume
               </button>
               <hr className="about__hr" />

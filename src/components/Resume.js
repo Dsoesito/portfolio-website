@@ -34,6 +34,9 @@ const Resume = () => {
             <div className="resume__duration">
               <p>Graduated with Deans Honours List</p>
             </div>
+            <div className="resume__duration">
+              <p>Cumulative GPA: 82%</p>
+            </div>
             {/* <hr className="resume__lineBottom" /> */}
             <div className="resume__spacer" />
           </div>
@@ -74,11 +77,11 @@ const Resume = () => {
                 </li>
                 <li>
                   <p>
-                    Collaborated with Sr Landscape Designer & client to define
-                    the project’s vision and objectives as well as co-create the
-                    art of the possible and draft the initial designs given the
-                    project’s guardrails, inclusive of budget, city by-laws, and
-                    sustainability metrics
+                    Defined the project’s vision and objectives as well as
+                    co-create the art of the possible and draft the initial
+                    designs given the project’s guardrails, inclusive of budget,
+                    city by-laws, and sustainability metrics, with the client
+                    and the Sr Landscape Designer
                   </p>
                 </li>
                 <li>

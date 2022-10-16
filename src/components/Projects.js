@@ -27,6 +27,7 @@ const Projects = () => {
             </a>
             <div className="projects__text">
               <p className="projects__title">Instagram Clone</p>
+              <p className="projects__reactive">*Fully Reactive*</p>
               <p className="projects__tools">
                 React.JS, Next.JS, HTML, Tailwind Css, Firebase v9, Recoil,
                 Faker.io API, Hostinger, Vercel
@@ -63,6 +64,7 @@ const Projects = () => {
             </a>
             <div className="projects__text">
               <p className="projects__title">Netflix Clone</p>
+              <p className="projects__reactive">*Fully Reactive*</p>
               <p className="projects__tools">
                 React.JS, HTML, CSS, Firebase v9, Stripe, NextAuth, Redux, TMDB
                 API
@@ -137,6 +139,7 @@ const Projects = () => {
             </a>
             <div className="projects__text">
               <p className="projects__title">Work Out Planner</p>
+              <p className="projects__reactive">*Fully Reactive*</p>
               <p className="projects__tools">
                 React.JS, HTML, CSS, Firebase v9, Redux
               </p>
@@ -176,6 +179,7 @@ const Projects = () => {
             </a>
             <div className="projects__text">
               <p className="projects__title">Landing Page</p>
+              <p className="projects__reactive">*Fully Reactive*</p>
               <p className="projects__tools">
                 JavaScript, HTML, CSS, OpenWeather API
               </p>
