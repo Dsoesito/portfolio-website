@@ -181,7 +181,7 @@ const Projects = () => {
               <p className="projects__title">Landing Page</p>
               <p className="projects__reactive">*Fully Reactive*</p>
               <p className="projects__tools">
-                JavaScript, HTML, CSS, OpenWeather API
+                JavaScript, TypeScript, HTML, CSS, OpenWeather API
               </p>
               <p className="projects__description">
                 Web browser landing page that shows times, current local weather
